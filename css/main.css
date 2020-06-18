@@ -1,0 +1,17 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+  left: 60px;
+  top: 175px;
+  z-index: 5;
+}
+
+h1,
+#narwhal-eye {
+  animation: opacity-fade ease 1s forwards;
+  opacity: 0;
+}
+
+@keyframe opacity-fade {
+
+}
